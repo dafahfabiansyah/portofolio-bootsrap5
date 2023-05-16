@@ -11,13 +11,13 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow p-3 fixed-top" style="background-color: #9077c4">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark shadow p-3 fixed-top" style="background-color: #5f9ea0">
       <div class="container">
         <a class="navbar-brand" href="#">dafah fabian syah</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -29,7 +29,27 @@
               <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
+              <a class="nav-link" href="#message">Message Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Contact Me </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <button class="dropdown-item" type="button">
+                    <a href="https://www.linkedin.com/in/dafah-fabian-syah-688755232/" style="color: #252525; text-decoration: none"><i class="bi bi-linkedin"></i> LinkedIn</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" type="button">
+                    <a href="https://www.instagram.com/dafbians/?next=%2F&hl=id" style="color: #252525; text-decoration: none"><i class="bi bi-instagram"></i> Instagram</a>
+                  </button>
+                </li>
+                <li>
+                  <button class="dropdown-item" type="button">
+                    <a href="https://github.com/dafahfabiansyah" style="color: #252525; text-decoration: none"><i class="bi bi-github"></i> Github</a>
+                  </button>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -40,8 +60,8 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="assets/img/Emoticon Thumbs up Teenage Wall Sticker - 48_W x 48_H.jpg" alt="dafah fabian syah" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Dafah Fabian Syah</h1>
-      <p class="lead">Fresh Graduate | Junior Website Developer, maybe?</p>
+      <h1 class="display-4"><strong>Dafah Fabian Syah</strong></h1>
+      <p class="lead"><strong>Fresh Graduate | Junior Website Developer, maybe?</strong></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -67,7 +87,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#cf40ff"
+          fill="#b0c4de"
           fill-opacity="1"
           d="M0,288L34.3,256C68.6,224,137,160,206,160C274.3,160,343,224,411,256C480,288,549,288,617,256C685.7,224,754,160,823,128C891.4,96,960,96,1029,85.3C1097.1,75,1166,53,1234,42.7C1302.9,32,1371,32,1406,32L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
@@ -86,7 +106,15 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="assets/img/dries-augustyns-WzKPT0IuUrU-unsplash.jpg" class="card-img-top" alt="projets 1" />
+              <a href="https://github.com/dafahfabiansyah/golangLogin"><img src="assets/img/golang login session.jpg" class="card-img-top" alt="Project 1" title="projects 1" /></a>
+              <div class="card-body">
+                <p class="card-text">Login session yang menggunakan bahasa pemrogaman Go atau biasa disebut Golang</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/jay-zhang-ZByWaPXD2fU-unsplash.jpg" class="card-img-top" alt="projets 2" title="project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -94,15 +122,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="assets/img/jay-zhang-ZByWaPXD2fU-unsplash.jpg" class="card-img-top" alt="projets 2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="assets/img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg" class="card-img-top" alt="projets 1" />
+              <img src="assets/img/sergi-kabrera-2xU7rYxsTiM-unsplash.jpg" class="card-img-top" alt="projets 3" title="projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -120,50 +140,95 @@
     </section>
     <!-- End Profile -->
 
-    <!-- Contact me -->
-    <section id="contact">
+    <!-- Message Me -->
+    <section id="message">
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2>Message Me</h2>
           </div>
         </div>
         <div class="row justify-content-center mb-3">
           <div class="col-md-6">
-            <form>
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima Kasih!</strong> Pesan Anda Sudah Terkirim:).
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="dafbians-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
                 <label for="Pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-sender">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
             </form>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#9077c4"
+          fill="#5f9ea0"
           fill-opacity="1"
           d="M0,128L48,144C96,160,192,192,288,208C384,224,480,224,576,192C672,160,768,96,864,64C960,32,1056,32,1152,42.7C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- End Contact me -->
+    <!-- End Message Me -->
 
     <!-- Footer -->
-    <footer style="background-color: #9077c4" class="text-white text-center pb-5">
+    <footer style="background-color: #5f9ea0" class="text-white text-center pb-5">
       <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/dafbians/?hl=id" class="text-white fw-bold">Dafah Fabian Syah</a></p>
+      <br />
+      <p>Copyright <span id="current-year"></span></p>
     </footer>
     <!-- End Footer -->
+
+    <!-- Script Javascript -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbydaN6cV-1xaSiLVpU1Js565qGHvltwD9FYCB_55wmid3vy4QT66nHAltgXgXuf1YGc/exec';
+      const form = document.forms['dafbians-contact-form'];
+      const btnSender = document.querySelector('.btn-sender');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        //ketika tombol submit diklik
+        //tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnSender.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            //tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnSender.classList.toggle('d-none');
+            //tampilkan allert
+            myAlert.classList.toggle('d-none');
+            //reset formnya
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+
+      const year = document.querySelector('#current-year');
+      year.innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>
